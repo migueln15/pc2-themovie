@@ -42,7 +42,6 @@ export default {
   methods: {
     actualizarFiltros(prm) {
       this.filtros = prm;
-      console.log("La categoria recibida es: " + this.filtros.ptsMin);
     },
   },
 };
